@@ -1,3 +1,16 @@
+# Repo for POC of TlDraw Integration
+
+### Steps to reproduce issue (validated on MacOs/Linux):
+1. `git clone https://github.com/beltebelt/jitsi-meet`
+2. `cd jitsi-meet && npm install`
+3. Extract `server.zip`
+4. `cd server && npm install`
+5. Run dev server using `npm run dev-server-node` (might ask for yarn installation `npm i -g yarn`
+6. Back in `jitsi-meet` folder, run `make dev`
+7. Go to `https://localhost:8080` in browser (chrome).
+8. Start a meeting and toggle whiteboard a few times from the menu.
+
+
 # <p align="center">Jitsi Meet</p>
 
 Jitsi Meet is a set of Open Source projects which empower users to use and deploy
